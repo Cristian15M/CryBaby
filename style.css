@@ -1,0 +1,37 @@
+*{margin: 0;padding: 0;
+box-sizing: border-box;}
+
+.header{width: 100%;
+background-image: linear-gradient(to right, #adc9df, #f7c9cc);}
+
+.nav-link{color: white!important;}
+.nav-brand{color: white!important;}
+.nav-link:hover{color: #fbe693!important;}
+@media(max-width:668px){
+    .nav-link{text-align: center;}
+}
+
+body{
+    background:url(fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000000;
+    font-family: sans-serif;
+}
+
+.bio{
+    width: 760px;
+    border: 1px solid #adc9df;
+    background-color: white;
+    margin: 0px auto;
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+    box-shadow: #adc9df -2px 2px;
+    position: relative;
+    z-index: 10;
+}
